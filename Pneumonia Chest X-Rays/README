@@ -1,0 +1,1 @@
+This is  a folder containing a Sequential Neural Network for the autonomous diagnosis of chest x-rays (pneumonia). The IM-0007-0001 image represents an unremarkable chest x-ray while the person1_bacteria_2 image represents a chest x-ray with pneumonia. The data set can be found at https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia. 
