@@ -106,7 +106,7 @@ class MLTrader(Strategy):
                 self.submit_order(order)
                 self.last_trade = "sell"
 
-# Validation starts at the beginning of December 2023 and ends December 2023
+# Validation starts at the beginning of 2020 and ends December 2023
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2023, 12, 31)
 
