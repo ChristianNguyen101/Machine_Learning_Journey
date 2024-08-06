@@ -33,7 +33,7 @@ ALPACA_CREDS ={
 
 
 class MLTrader(Strategy):
-    def initialize(self, symbol: str = "SPY", cash_at_risk: float = 0.25):
+    def initialize(self, symbol: str = "MSFT", cash_at_risk: float = 0.25):
         self.symbol = symbol
         # Sets Training Schedule
         self.sleeptime = "24H"
@@ -116,7 +116,7 @@ broker = Alpaca(ALPACA_CREDS)
 # Defines our trading strategy
 strategy = MLTrader(name='machine_learning_strategy',
                     broker=broker,
-                    parameters={"symbol": "SPY", "cash_at_risk": .25})
+                    parameters={"symbol": "MSFT", "cash_at_risk": .25})
 
 # Defines our backtesting (VALIDATION)
 #backtest_results = strategy.backtest(
